@@ -1,4 +1,4 @@
-const appconfig=require('./../config/appConfig')
+const appconfig=require('./../config/appconfig')
 
 let requestIpLogger=(req,res,next)=>{
     let remoteIp=req.connection.remoteAddress+'://'+req.connection.remotePort;
